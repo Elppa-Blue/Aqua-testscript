@@ -1,0 +1,8 @@
+local CreateUI = function(Name)
+	player = game:GetService("Players").LocalPlayer.PlayerGui
+	local UI = Instance.new("ScreenGui", player)
+	UI.Name = Name
+	local Frame = Instance.new("Frame", UI)
+	Frame.Size = UDim2.new(0.1, 0, 0.1, 0)
+	Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+end
